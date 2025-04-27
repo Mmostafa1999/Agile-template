@@ -1,0 +1,108 @@
+{
+  "Index": {
+    "boilerplateName": "Next.js i18n Template",
+    "title": "Next 15 Template with i18n and Shadcn UI",
+    "description": "A powerful starting point for your next multilingual, accessible web application.",
+    "cloneRepository": "Clone Repository",
+    "leaveStar": "Leave a Star",
+    "howToUse": "How to Use",
+    "gettingStarted": "Getting Started",
+    "installation": "Installation",
+    "howToContribute": "How to Contribute",
+    "omitrtlUsage": "OmitRTL Usage",
+    "OmitRTLInstruction": "To use OmitRTL, simply wrap the component you want to omit RTL support for with the OmitRTL component.",
+    "contribute": "Contribute",
+    "installationSteps": {
+      "cloneRepository": "Clone the repository:",
+      "installDependencies": "Install dependencies:",
+      "startDevServer": "Start the development server:"
+    },
+    "contributeSteps": {
+      "fork": "Fork the repository",
+      "createBranch": "Create a new branch:",
+      "commit": "Commit your changes:",
+      "push": "Push to the branch:",
+      "pullRequest": "Create a new Pull Request"
+    },
+    "error": {
+      "server": "Internal Server Error",
+      "sorry": "Sorry, we encountered an unexpected issue on our server.",
+      "tryAgain": " Try again later.",
+      "returnHome": "Return home"
+    }
+  },
+
+  "Footer": {
+    "copyright": "© 2025 Next.js i18n Template. Open source under MIT license.",
+    "githubLink": "GitHub"
+  },
+  "Metadata": {
+    "title": "Next.js i18n Template - Multilingual Starter Template",
+    "description": "Next.js internationalization (i18n) starter kit with English and Arabic support. Includes shadcn UI, theme switching, and RTL support.",
+    "keywords": "Next.js, i18n, internationalization, Arabic, English, multilingual, template, starter template, shadcn UI, RTL support"
+  },
+  "Auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "createAccount": "Create an Account",
+    "signingIn": "Signing In...",
+    "signingUp": "Signing Up...",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "orContinueWith": "Or continue with",
+    "continueWithGoogle": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "resetPasswordSuccess": "Reset Email Sent",
+    "resetPasswordEmailSent": "Check your email for a link to reset your password.",
+    "resetPasswordError": "Reset Password Error",
+    "signUpSuccess": "Account Created",
+    "welcomeMessage": "Welcome to our app! Your account has been created successfully.",
+    "signUpError": "Registration Error",
+    "signInSuccess": "Welcome Back",
+    "welcomeBack": "You have successfully signed in.",
+    "signInError": "Sign In Error",
+    "signOutSuccess": "Signed Out",
+    "signOutError": "Sign Out Error",
+    "comeBackSoon": "Thank you for using our app. Come back soon!",
+    "invalidEmail": "Please enter a valid email address",
+    "weakPassword": "Password should be at least 6 characters",
+    "passwordMinLength": "Password must be at least {count} characters",
+    "nameMinLength": "Name must be at least {count} characters",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "emailAlreadyInUse": "This email is already registered",
+    "invalidCredentials": "Invalid email or password",
+    "tooManyRequests": "Too many failed attempts. Please try again later",
+    "userNotFound": "No user found with this email",
+    "popupClosed": "Login popup was closed. Please try again",
+    "popupBlocked": "Login popup was blocked. Please allow popups for this site",
+    "unknownError": "An unknown error occurred. Please try again",
+    "profile": "Your Profile",
+    "user": "User",
+    "emailVerified": "Email Verified",
+    "accountCreated": "Account Created",
+    "yes": "Yes",
+    "no": "No",
+    "unknown": "Unknown"
+  },
+  "Chat": {
+    "openChat": "Open chat",
+    "closeChat": "Close chat",
+    "chatAssistant": "AI Assistant",
+    "typeMessage": "Type a message...",
+    "you": "You",
+    "assistant": "AI",
+    "startPrompt": "Ask me anything to get started!",
+    "sending": "Sending...",
+    "error": "Something went wrong. Please try again."
+  }
+}

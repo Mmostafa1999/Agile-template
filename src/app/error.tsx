@@ -1,7 +1,7 @@
 "use client";
 
 import { ServerCrash } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 
@@ -18,15 +18,29 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const [locale, setLocale] = useState<string | null>(null);
+  const t = useTranslations("error");
+
   useEffect(() => {
     // Log the error to an error reporting service
     console.error(error);
   }, [error]);
   
-  const { locale } = params;
-  setRequestLocale(locale);
-  const t = useTranslations("error");
-
+  useEffect(() => {
+    const resolveParams = async () => {
+      const resolvedParams = await params;
+      const localeValue = resolvedParams.locale;
+      setLocale(localeValue);
+      setRequestLocale(localeValue);
+    };
+    resolveParams();
+  }, [params]);
+  
+  // Wait for locale to be resolved before rendering with translations
+  if (!locale) {
+    return <div>Loading...</div>;
+  }
+  
   return (
     <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center">
       <div className="flex items-center justify-center w-20 h-20 mb-6 rounded-full bg-red-100">
